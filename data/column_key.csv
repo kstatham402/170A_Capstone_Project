@@ -1,0 +1,65 @@
+old_name,new_name,description
+Unique Patient ID,unique_patient_id,(int) De-identified unique patient identifier
+Ethnicity,ethnicity,(int) Patient-reported ethnicity (1- Caucasian; 2- Hispanic; 3- Asian; 4- Black; 5- other)
+"NHT Prior authorization date (Abiraterone, Enzalutamide, Apalutamide, Darolutamide)",nht_auth_date,(date) Date of prior authorization approval for novel hormonal therapy (NHT)
+"Start date of NHT (Abiraterone, Enzalutamide, Apalutamide, Darolutamide)",nht_start_date,(date) Date NHT was initiated
+BMI (when they started NHT) ,bmi,(float) Body mass index at time of NHT initiation
+Specific NHT used,specific_nht_used,"(str) Type of novel hormonal therapy prescribed (Abiraterone, Enzalutamide, Apalutamide, Darolutamide)"
+Age at NHT start,age,(int) Age at NHT initiation
+"Start date of ADT (Lupron, Firmagon, Orgovyx, or Bicalutamide)",adt_start_date,(date) Date androgen deprivation therapy (ADT) was initiated
+Specific ADT agent used,adt_agent,"(str) Specific ADT agent prescribed (Lupron, Firmagon, Orgovyx, or Bicalutamide)"
+Hx of smoking?,hx_smoking,"(int) History of tobacco use prior to NHT start (0- No; 1- Former, quit <1 yr; 2- Active)"
+Family Hx of heart disease? ,family_hx_hd,(int) Family history of heart disease (1-Yes; 2-No; 3-Not recorded)
+Hx of HTN prior to NHT start?,hx_htn,(int) History of hypertension prior to NHT start (1- Yes; 2- No)
+SBP,sbp,(int) Systolic blood pressure (mmHg)
+DBP,dbp,(int) Diastolic blood pressure (mmHg)
+BP medication within 3 months prior to NHT start,bp_meds_prior,(int) BP medications within 3 months before NHT (0: None; 1: One; 2: More than two)
+"On Beta-blocker prior to NHT? Acebutolol, Atenolol, Bisoprolol, Carvedilol, Metoprolol, Nadolol, Nebivolol, Propranolol, Betaxolol, Esmolol, Nebivolol, Carteolol, Penbutolol, Pindolol, Labetalol, Sotalol ",bb_prior,(int) Beta-blocker use prior to NHT (1- Yes; 2- No)
+"On ACE-I or ARB Prior to NHT? (1- yes, 2- no)Benazepril, Enalapril, Fosinopril, Lisinopril, Ramipril, Candesartan, Irbesartan, Losartan, Olmesartan, Telmisartan, Valsartan",ace_arb_prior,(int) ACE inhibitor or ARB use prior to NHT (1- Yes; 2- No)
+Starting new BP medications after NHT start,bp_meds_post,(int) New BP medication after NHT start (0: None; 1: One; 2: More than two)
+"has PCP (1:No, 2: at UCI 3: Outside)",has_pcp,(int) Primary care provider status (1: No; 2: UCI; 3: Outside)
+Hx of hyperlipidemia prior to NHT start?,hx_hld,(int) Hyperlipidemia history (1- Yes; 2- No)
+Hx of high triglycerides prior to NHT start?,hx_high_tg,(int) Elevated triglycerides history (1- Yes; 2- No)
+"On a statin prior to NHT start?  Atorvastatin, Fluvastatin, Lovastatin, Pitavastatin, Pravastatin, Rosuvastatin, Simvastatin",statin_prior,(int) Statin use prior to NHT (1- Yes; 2- No)
+"On another Cho lowering drug prior to NHT start? Ezetimibe, Alirocumab, Evolocumab, Bempedoic acid, Fenofibrate, Gemfibrozil, Cholestyramine, Colestipol, Colesevelam, Nicotinic acid",other_lipid_prior,(int) Non-statin lipid medication prior to NHT (1- Yes; 2- No)
+Starting new cholesterol medications after NHT start,lipid_meds_post,(int) New lipid medication after NHT (0: None; 1: One; 2: More than two)
+Had lipid panel checked 3 months prior to 3 months post NHT start? ,lipid_panel_checked,(int) Lipid panel within 3 months before/after NHT (1- Yes; 2- No)
+TC,tc,(float) Total cholesterol (mg/dL)
+HDL,hdl,(float) HDL cholesterol (mg/dL)
+LDL,ldl,(float) LDL cholesterol (mg/dL)
+10-Year ASCVD Risk ,ascvd_10yr,(float) 10-year ASCVD risk score
+10-Yr Risk Score % ,ascvd_10yr_pct,(float) 10-year ASCVD risk percentage
+Hx of CAD prior to NHT start?,hx_cad,(int) Coronary artery disease history (1- Yes; 2- No)
+date of CAD,cad_date,(date) Date of CAD diagnosis
+Hx of MI or stent placement prior to NHT start? ,hx_mi_stent,(int) History of MI or stent (1- Yes; 2- No)
+date of MI orstent,mi_stent_date,(date) Date of MI or stent placement
+Hx of CHF prior to NHT start?,hx_chf,(int) Heart failure history (1- Yes; 2- No)
+date of HF,hf_date,(date) Date of heart failure diagnosis
+EF,ef,(float) Ejection fraction (%)
+Hx of arrhythmia prior to NHT start?,hx_arrhythmia,(int) Arrhythmia history (1- Yes; 2- No)
+date of arrhythmia,arrhythmia_date,(date) Date of arrhythmia diagnosis
+Hx of carotid art. Disease prior to NHT start? ,hx_carotid,(int) Carotid artery disease history (1- Yes; 2- No)
+date of carotid art disease,carotid_date,(date) Date of carotid disease diagnosis
+Hx of PVD/PAD prior to NHT start?,hx_pad,(int) Peripheral arterial disease history (1- Yes; 2- No)
+date of PVD/PAD,pad_date,(date) Date of PAD diagnosis
+Hx of CVA prior to NHT start? ,hx_cva,(int) Stroke history (1- Yes; 2- No)
+date of CVA,cva_date,(date) Date of stroke
+Hx of Diabetes mellitus type II?,hx_dm2,(int) Type II diabetes history (1- Yes; 2- No)
+"On oral or injection non-insulin DM meds? (Canagliflozin, Empagliflozin , Glimeperide , Glipizide , Glyburide, Linagliptin, Metformin, Pioglitazone, Saxagliptin, Sitagliptin, Semaglutide (=Ozempic), tirzepatide (=Mounjaro)",dm_noninsulin,(int) Non-insulin DM meds (0: None; 1: One; 2: More than one)
+On insulin? ,on_insulin,(int) Insulin use (1- Yes; 2- No)
+Starting new DM medications after NHT start,dm_meds_post,(int) New diabetes meds after NHT (0: None; 1: One; 2: More than one)
+A1C measured 3 months before or 3 months after starting NHT? ,a1c_checked,(int) A1C measured within 3 months (1- Yes; 2- No)
+A1c,a1c,(float) Hemoglobin A1c value
+Blood sugar >200 before or after the first 3 months of NHT?,glucose_over_200,(int) Blood glucose >200 mg/dL (1- Yes; 2- No)
+On ASA before or after the first 3 months of NHT?,asa_use,(int) Aspirin use (1- Yes; 2- No)
+Saw cards prior to NHT start within three months?  ,cards_prior,(int) Cardiology visit within 3 months before NHT (1- Yes; 2- No)
+Saw cards after NHT start?,cards_post,(int) Cardiology visit after NHT (1- Yes; 2- No)
+Referred to cards post NHT start by oncology? ,cards_referral,(int) Cardiology referral from oncology (1- Yes; 2- No)
+Documented counseling about diet by oncology w/i 3 mos of NHT start?,diet_counseling,(int) Dietary counseling documented (1- Yes; 2- No)
+Documented counseling about exercise by oncology w/i 3 mos of NHT start? ,exercise_counseling,(int) Exercise counseling documented (1- Yes; 2- No)
+Order for echo w/i 3 mos of NHT start?,echo_ordered,(int) Echocardiogram ordered (1- Yes; 2- No)
+ECG w/i 3 month of NHT start?,ecg_done,(int) ECG performed (1- Yes; 2- No)
+QTc,qtc,(float) Corrected QT interval (ms)
+Actively seen by non-oncology providers?,non_onc_provider,(int) Followed by non-oncology provider (0- No; 1- Cardio; 2- PCP/Geri; 3- Endo)
+"has PCP (1:No, 2: at UCI 3: Outside).1",has_pcp_duplicate,
+Prescribing Provider,prescribing_provider,(str) Provider who prescribed NHT
