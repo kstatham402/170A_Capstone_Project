@@ -61,5 +61,5 @@ Order for echo w/i 3 mos of NHT start?,echo_ordered,(int) Echocardiogram ordered
 ECG w/i 3 month of NHT start?,ecg_done,(int) ECG performed (1- Yes; 2- No),(int) ECG performed (1- Yes; 2- No)
 QTc,qtc,(float) Corrected QT interval (ms),(float) Corrected QT interval (ms)
 Actively seen by non-oncology providers?,non_onc_provider,(int) Followed by non-oncology provider (0- No; 1- Cardio; 2- PCP/Geri; 3- Endo),(int) Followed by non-oncology provider (0- No; 1- Cardio; 2- PCP/Geri; 3- Endo)
-"has PCP (1:No, 2: at UCI 3: Outside).1",has_pcp_duplicate,,
+"has PCP (1:No, 2: at UCI 3: Outside).1",has_pcp_duplicate,,(int) Primary care provider status (0: No; 1: Yes)
 Prescribing Provider,prescribing_provider,(str) Provider who prescribed NHT,(str) Provider who prescribed NHT
