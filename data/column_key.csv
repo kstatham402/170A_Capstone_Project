@@ -10,7 +10,7 @@ Age at NHT start,age,(int) Age at NHT initiation,(int) Age at NHT initiation
 Specific ADT agent used,adt_agent,"(str) Specific ADT agent prescribed (Lupron, Firmagon, Orgovyx, or Bicalutamide)","(str) Specific ADT agent prescribed (Lupron, Firmagon, Orgovyx, or Bicalutamide)"
 Hx of smoking?,hx_smoking,"(int) History of tobacco use prior to NHT start (0- No; 1- Former, quit <1 yr; 2- Active)",(int) History of tobacco use prior to NHT start (0- No; 1- Yes)
 Family Hx of heart disease? ,family_hx_hd,(int) Family history of heart disease (1-Yes; 2-No; 3-Not recorded),(int) Family history of heart disease (1-Yes; 0-No)
-Hx of HTN prior to NHT start?,hx_htn,(int) History of hypertension prior to NHT start (1- Yes; 2- No),(int) History of hypertension prior to NHT start (1- Yes; 2- No)
+Hx of HTN prior to NHT start?,hx_htn,(int) History of hypertension prior to NHT start (1- Yes; 2- No),(int) History of hypertension prior to NHT start (1- Yes; 0- No)
 SBP,sbp,(int) Systolic blood pressure (mmHg),(int) Systolic blood pressure (mmHg)
 DBP,dbp,(int) Diastolic blood pressure (mmHg),(int) Diastolic blood pressure (mmHg)
 BP medication within 3 months prior to NHT start,bp_meds_prior,(int) BP medications within 3 months before NHT (0: None; 1: One; 2: More than two),(int) BP medications within 3 months before NHT (0: No; 1: Yes)
@@ -22,7 +22,7 @@ Hx of hyperlipidemia prior to NHT start?,hx_hld,(int) Hyperlipidemia history (1-
 Hx of high triglycerides prior to NHT start?,hx_high_tg,(int) Elevated triglycerides history (1- Yes; 2- No),(int) Elevated triglycerides history (1- Yes; 0- No)
 "On a statin prior to NHT start?  Atorvastatin, Fluvastatin, Lovastatin, Pitavastatin, Pravastatin, Rosuvastatin, Simvastatin",statin_prior,(int) Statin use prior to NHT (1- Yes; 2- No),(int) Statin use prior to NHT (1- Yes; 0- No)
 "On another Cho lowering drug prior to NHT start? Ezetimibe, Alirocumab, Evolocumab, Bempedoic acid, Fenofibrate, Gemfibrozil, Cholestyramine, Colestipol, Colesevelam, Nicotinic acid",other_lipid_prior,(int) Non-statin lipid medication prior to NHT (1- Yes; 2- No),(int) Non-statin lipid medication prior to NHT (1- Yes; 0- No)
-Starting new cholesterol medications after NHT start,lipid_meds_post,(int) New lipid medication after NHT (0: None; 1: One; 2: More than two),(int) New lipid medication after NHT (0: None; 1: One; 2: More than two)
+Starting new cholesterol medications after NHT start,lipid_meds_post,(int) New lipid medication after NHT (0: None; 1: One; 2: More than two),(int) New lipid medication after NHT (0: No; 1: Yes)
 Had lipid panel checked 3 months prior to 3 months post NHT start? ,lipid_panel_checked,(int) Lipid panel within 3 months before/after NHT (1- Yes; 2- No),(int) Lipid panel within 3 months before/after NHT (1- Yes; 0- No)
 TC,tc,(float) Total cholesterol (mg/dL),(float) Total cholesterol (mg/dL)
 HDL,hdl,(float) HDL cholesterol (mg/dL),(float) HDL cholesterol (mg/dL)
