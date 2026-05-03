@@ -1,0 +1,133 @@
+feature,importance,model
+days_adt_to_nht,3.8012329381248904,Logistic (L1)
+dm_noninsulin,2.7160579175119977,Logistic (L1)
+cards_referral,2.3938252734647927,Logistic (L1)
+hx_dm2,2.003046934031372,Logistic (L1)
+lipid_panel_checked,1.719781193263251,Logistic (L1)
+hx_pad,1.6991842420590504,Logistic (L1)
+glucose_over_200,1.601369660122686,Logistic (L1)
+hx_cva,1.4586591690821775,Logistic (L1)
+non_onc_provider,1.1644800588289463,Logistic (L1)
+asa_use,1.0950248392880713,Logistic (L1)
+hx_smoking,1.083127068018182,Logistic (L1)
+has_pcp,0.938483762815106,Logistic (L1)
+bp_meds_prior,0.8240529927991765,Logistic (L1)
+hx_carotid,0.7368247810061925,Logistic (L1)
+hx_chf,0.6904571801563626,Logistic (L1)
+cards_prior,0.5882204238615221,Logistic (L1)
+hx_high_tg,0.5662810713817771,Logistic (L1)
+bb_prior,0.5341018245791177,Logistic (L1)
+hx_htn,0.4207926471450535,Logistic (L1)
+ascvd_10yr,0.4135935021087317,Logistic (L1)
+statin_prior,0.387529748191237,Logistic (L1)
+sbp,0.3740538327755152,Logistic (L1)
+dbp,0.3476863334071992,Logistic (L1)
+ace_arb_prior,0.3378160060310757,Logistic (L1)
+cards_post,0.3335951653140737,Logistic (L1)
+adt_agent_enc,0.316100551720691,Logistic (L1)
+hx_mi_stent,0.3119728238972233,Logistic (L1)
+ethnicity_enc,0.2902331598501753,Logistic (L1)
+hx_arrhythmia,0.2624912655536437,Logistic (L1)
+hx_cad,0.236157036346749,Logistic (L1)
+a1c_checked,0.2042669244450411,Logistic (L1)
+hx_hld,0.1819317010693816,Logistic (L1)
+on_insulin,0.1682978043813482,Logistic (L1)
+bmi,0.1015536007247919,Logistic (L1)
+age,0.097408293214473,Logistic (L1)
+ecg_done,0.0669251468451003,Logistic (L1)
+family_hx_hd,0.0467648532701821,Logistic (L1)
+diet_counseling,0.020723896453303,Logistic (L1)
+days_auth_to_start,0.0146846212808897,Logistic (L1)
+prescribing_provider_enc,0.0115893061108064,Logistic (L1)
+echo_ordered,0.002823068364987,Logistic (L1)
+exercise_counseling,0.0,Logistic (L1)
+other_lipid_prior,0.0,Logistic (L1)
+specific_nht_used_enc,0.0,Logistic (L1)
+dm_noninsulin,0.0852216748768473,Random Forest
+days_adt_to_nht,0.0600985221674877,Random Forest
+bmi,0.0330049261083744,Random Forest
+days_auth_to_start,0.0275862068965518,Random Forest
+bp_meds_prior,0.0236453201970444,Random Forest
+lipid_panel_checked,0.0177339901477833,Random Forest
+age,0.016256157635468,Random Forest
+prescribing_provider_enc,0.0147783251231527,Random Forest
+dbp,0.0142857142857143,Random Forest
+sbp,0.0128078817733991,Random Forest
+adt_agent_enc,0.0113300492610838,Random Forest
+ethnicity_enc,0.0103448275862069,Random Forest
+ace_arb_prior,0.0088669950738917,Random Forest
+bb_prior,0.0083743842364532,Random Forest
+hx_htn,0.0068965517241379,Random Forest
+hx_smoking,0.0054187192118227,Random Forest
+ascvd_10yr,0.0054187192118227,Random Forest
+non_onc_provider,0.0039408866995074,Random Forest
+specific_nht_used_enc,0.0029556650246306,Random Forest
+hx_dm2,0.0029556650246305,Random Forest
+other_lipid_prior,0.0024630541871921,Random Forest
+statin_prior,0.0024630541871921,Random Forest
+hx_hld,0.0024630541871921,Random Forest
+glucose_over_200,0.0014778325123153,Random Forest
+asa_use,0.0009852216748768,Random Forest
+echo_ordered,0.0009852216748768,Random Forest
+cards_referral,0.0009852216748768,Random Forest
+cards_post,0.0,Random Forest
+ecg_done,0.0,Random Forest
+exercise_counseling,0.0,Random Forest
+diet_counseling,0.0,Random Forest
+on_insulin,0.0,Random Forest
+cards_prior,0.0,Random Forest
+hx_cva,0.0,Random Forest
+hx_carotid,0.0,Random Forest
+hx_arrhythmia,0.0,Random Forest
+hx_chf,0.0,Random Forest
+hx_mi_stent,0.0,Random Forest
+hx_cad,0.0,Random Forest
+hx_high_tg,0.0,Random Forest
+has_pcp,0.0,Random Forest
+hx_pad,0.0,Random Forest
+family_hx_hd,-0.0019704433497536,Random Forest
+a1c_checked,-0.0019704433497536,Random Forest
+dm_noninsulin,0.0902274665608843,GAM
+cards_referral,0.0630302756758245,GAM
+ethnicity_enc,0.034122110060858,GAM
+lipid_panel_checked,0.0246062396545163,GAM
+hx_dm2,0.0216053789697043,GAM
+adt_agent_enc,0.0127067054352488,GAM
+non_onc_provider,0.0091541369558304,GAM
+hx_cad,0.0018004931258098,GAM
+asa_use,0.0004508531847199,GAM
+hx_chf,-0.0052750810624355,GAM
+hx_hld,-0.0053738091699635,GAM
+family_hx_hd,-0.0060420978131445,GAM
+bmi,-0.0111350857398848,GAM
+bp_meds_prior,-0.0129734402015624,GAM
+exercise_counseling,-0.0144283807598071,GAM
+hx_arrhythmia,-0.0153232433093695,GAM
+has_pcp,-0.0173120129227577,GAM
+glucose_over_200,-0.0182216168380857,GAM
+hx_smoking,-0.0232380037707524,GAM
+hx_cva,-0.0270103187471288,GAM
+specific_nht_used_enc,-0.0277826451885812,GAM
+hx_carotid,-0.0281910388220285,GAM
+dbp,-0.0286652131670361,GAM
+bb_prior,-0.0301479275551417,GAM
+hx_pad,-0.0335545474273999,GAM
+other_lipid_prior,-0.0359521375245197,GAM
+age,-0.0394971223730142,GAM
+diet_counseling,-0.0416111825043812,GAM
+sbp,-0.0433945175930128,GAM
+echo_ordered,-0.0441385962493416,GAM
+hx_high_tg,-0.0446963939327289,GAM
+days_auth_to_start,-0.0493464812532278,GAM
+hx_htn,-0.0506667396215172,GAM
+days_adt_to_nht,-0.0519096105558949,GAM
+on_insulin,-0.0538994994367503,GAM
+a1c_checked,-0.0572976937718854,GAM
+hx_mi_stent,-0.0573116435586225,GAM
+ecg_done,-0.0575188685392626,GAM
+cards_post,-0.0640895026871046,GAM
+prescribing_provider_enc,-0.0667850762713,GAM
+cards_prior,-0.0688668736534805,GAM
+ace_arb_prior,-0.0697692952428616,GAM
+statin_prior,-0.0747993955588317,GAM
+ascvd_10yr,-0.0993085269447788,GAM
