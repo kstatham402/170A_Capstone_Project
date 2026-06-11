@@ -15,7 +15,7 @@
 
 ## Demo Notebook
 
-`notebooks/models/model_demo.ipynb` — [(HTML version)](notebooks/models/model_demo.html)
+`notebooks/models/model_demo.ipynb` — [(HTML version)](notebooks/models/project.html)
 
 Demonstrates cardiovascular risk identification using elastic net logistic regression. Loads sample data, generates predictions, and shows examples of correct and incorrect classifications.
 
