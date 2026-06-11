@@ -6,17 +6,25 @@
 
 ## How to Run
 
+1. Clone the repository
+2. Open notebooks/models/model_demo.ipynb 
+   * This is the demo notebook demonstrating the types of analysis we conducted
+3. Run all cells (< 1 minute) 
+
 ---
 
 ## Demo Notebook
 
-`notebooks/models/model_demo.ipynb` — [(HTML version)](project.html)
+`notebooks/models/model_demo.ipynb` — [(HTML version)](notebooks/models/model_demo.html)
 
 Demonstrates cardiovascular risk identification using elastic net logistic regression. Loads sample data, generates predictions, and shows examples of correct and incorrect classifications.
 
 ---
 
 ## Repository Structure
+
+* All data is stored in the 'data' directory.
+* All Jupyter Notebooks are stored in the 'notebook' directory, with preprocessing notebooks in the main 'notebook' directory and notebooks for the 2 independent analyses (Risk Stratification & Clinical Insight) stored in their respective sub-directories.
 
 ### `data/`
 | File | Description |
